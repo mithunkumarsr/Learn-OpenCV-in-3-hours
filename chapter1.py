@@ -19,7 +19,7 @@
 #         break
 ######################### READ WEBCAM  ############################
 import cv2
-frameWidth = 640
+frameWidth = 6400
 frameHeight = 480
 cap = cv2.VideoCapture(0)
 cap.set(3, frameWidth)
